@@ -1,0 +1,117 @@
+/* 
+    Created on : Jun 24, 2021, 1:03:18 PM
+    Author     : mike hedges
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+/*  To add a parallax effect
+<div class="parallax"></div>
+<div class="parallax"></div>
+.parallax{
+    background-image: url('sassyPants.jpg');
+    height: 60%;
+    width: 60%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+
+/*--Classes--*/
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    diplay: table;
+    clear: both;
+}
+
+.sides{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    clear: both;
+}
+
+.footerNote{
+    float: bottom;
+    clear: both;
+}
+
+.clearFloat {
+    padding-top: 3%;
+    clear: left;
+}
+
+/*--IDs--*/
+
+
+
+/*--General Styles--*/
+
+body, html{
+    height: 100%;   
+}
+
+body{
+    background-color: #d0f0c0;
+}
+
+header{
+    background-image: url(sassyPants.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 45%;
+    height: 45%;
+    margin-top: 0;
+}
+
+h1{
+    color: #d0f0c0;
+    font-family: "Times New Roman", serif;
+    text-shadow: 3px 1px 17px #000;
+    font-size: 3em;
+}
+
+
+/*--Table Styles--*/
+
+table{
+    margin-top: 3%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: bold;
+}
+
+th, td {
+     padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+ul {
+    margin-top: -1%;
+}
+
+h2, ul, li {
+	margin-left: 2%;
+}
